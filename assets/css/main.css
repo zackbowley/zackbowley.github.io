@@ -3227,18 +3227,18 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		#wrapper > .bg {
+		#wrapper > .bg { /*https://unsplash.com/photos/eFinQaJaAdE*/
 			position: absolute;
 			top: 0;
 			left: 0;
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/bg.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.png");
+			background-image: url("../../images/.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/connor-demott-eFinQaJaAdE-unsplash.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
-			background-repeat: repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
+			background-repeat: no-repeat,								no-repeat,													no-repeat;
+			background-attachment: fixed,								scroll,														scroll;
 			z-index: -1;
 		}
 
@@ -3258,7 +3258,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background: #1e252d;
+			background: #000000;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3606,7 +3606,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		color: #ffffff;
+		color: #18bfef;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3648,7 +3648,7 @@ input, select, textarea {
 		}
 
 		#nav a {
-			color: #ffffff;
+			color: #000000;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
